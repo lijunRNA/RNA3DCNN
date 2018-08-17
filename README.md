@@ -1,4 +1,5 @@
-# RNA3DCNN
+# RNA3DCNN: Local and Global Quality Assessments of RNA 3D Structures Using 3D Deep Convolutional Neural Networks
 
-Usage: python main.py -pn pdbname -model cnn_model.hdf5 or python main.py -pl pdblist -model cnn_model.hdf5 
+
+Usage: python Main.py -pn pdbname -model cnn_model.hdf5 or python Main.py -pl pdblist -model cnn_model.hdf5 
 -local 0/1
