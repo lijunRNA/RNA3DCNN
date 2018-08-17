@@ -2,12 +2,12 @@
 
 In our work, the evaluation of an RNA structure is divided into the assessment of each nucleotide. The nucleotide to be evaluated and its surrounding atoms are treated as a 3D image that is fed into the 3D CNNs, and the output is an RMSD-based nucleotide unfitness score characterizing how poorly the nucleotide fits into its surrounding environment.
 
-# Prerequisites
+## Prerequisites
 1. Anaconda https://www.anaconda.com/download/
 2. Keras https://keras.io/#installation
 3. biopython https://biopython.org/wiki/Download
 
-#Usage
+## Usage
 
 1. To assess an RNA, use flag "-pn pdbname" 
 2. To assess a list of RNA, use flag "-pl pdblist"
