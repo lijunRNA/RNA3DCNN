@@ -10,7 +10,7 @@ In our work, the evaluation of an RNA structure is divided into the assessment o
 ## Usage
 
 1. To assess an RNA, use flag "-pn pdbname" 
-2. To assess a list of RNA, use flag "-pl pdblist"
+2. To assess a list of RNAs, use flag "-pl pdblist"
 3. To choose different 3DCNN models, use flag "-model RNA3DCNN_MD.hdf5" or "-model RNA3DCNN_MDMC.hdf5"
 4. To print scores of each nucleotide and total scores, use flag "-local 1"
 5. To print only total scores, use flag "-local 0"
